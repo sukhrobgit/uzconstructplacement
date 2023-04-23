@@ -1,0 +1,63 @@
+.admin-layout{
+
+    display: flex;
+
+        &__nav{
+
+          h1{
+            padding: 1rem;
+            text-align: center;
+          }
+
+            width: 32vw;
+            height: 100vh;
+            background: grey;
+            color: white;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+
+            li{
+                margin: 30% 0;
+                font-weight: 600;
+                font-size: 1rem;
+            }
+
+            a:hover{
+                border: 1px solid white;
+                background: white;
+
+                border-radius: 5px;
+
+                    color: black;
+
+            }
+
+                a{
+                    color: white;
+                    padding: 1rem;
+                    }
+            
+
+                 
+          
+        }
+        &__logout-btn{
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+
+        &__top{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: grey;
+            color: white;
+            height: 7vh;
+        }
+
+
+      
+}

@@ -1,0 +1,110 @@
+
+.home{
+    h2{
+        margin: 2rem 0;
+    }
+
+
+    &__portfolio{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+
+        .portfolio-card{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            transition-duration: 300ms;
+        }
+        .portfolio-card:hover{
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+                        transform: scale(1.03);
+                        cursor: pointer;
+        }
+
+    }
+
+
+&__portfolio-container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 1.5rem;
+    transition-duration: 300ms;
+    padding: 3.5rem 2.5rem;
+h2{
+    text-align: center;
+    text-shadow: 1px 3px 3px #888888;
+}
+}
+    &__carousel{
+        height: 80vh;
+    }
+
+    &__body{
+        width: 80%;
+        margin: auto;
+
+    
+
+    }
+
+    &__about-us{
+        text-align: center;
+        max-width: 70vw;
+
+        padding: 2rem;
+        margin: 7rem auto;
+        margin-bottom: 10rem;
+        background-color: #3e404fcd;
+        color: white;
+        // border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
+        h2{
+            margin-bottom: 2rem;
+            text-shadow: 1px 3px 3px #888888;
+        }
+transition-duration: 300ms;
+    }
+
+    &__about-us:hover{
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        cursor: pointer;
+    }
+
+    &__staff-cards{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+        padding: 2rem;
+
+        div{
+            margin: 1rem 0;
+        }
+    }
+
+
+    .team{
+        margin-top: 7rem;
+        margin-bottom: 15rem;
+        &__intro{
+            text-align: center;
+            max-width: 75vw;
+            background-color: #3e404fcd;
+            color: white;
+            padding: 2rem;
+            margin: auto;
+            margin-top: 12rem;
+    
+            // border: 1px solid black;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
+            h2{
+                margin-bottom: 2rem;
+                text-shadow: 1px 3px 3px #888888;
+            }
+    transition-duration: 300ms;
+        }
+    }
+}
+
+
+
